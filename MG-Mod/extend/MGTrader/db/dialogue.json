@@ -1,0 +1,13 @@
+{
+	"insuranceStart": [
+	],
+	"insuranceFound": [
+	],
+	"insuranceFailed": [
+	],
+	"insuranceExpired": [
+	],
+	"insuranceComplete": [
+	],
+	"insuranceFailedLabs": []
+}

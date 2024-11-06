@@ -1,0 +1,92 @@
+{
+	"items": {
+		"newId": "8ef5b2ef0000000000000004",
+		"cloneId": "5d02797c86f774203f38e30a",
+		"_props": {
+			"AnimationVariantsNumber": 0,
+			"BackgroundColor": "orange",
+			"CanRequireOnRagfair": false,
+			"CanSellOnRagfair": true,
+			"ConflictingItems": [],
+			"DiscardLimit": -1,
+			"DiscardingBlock": false,
+			"DropSoundType": "None",
+			"ExamineExperience": 2,
+			"ExamineTime": 1,
+			"ExaminedByDefault": true,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"Height": 1,
+			"HideEntrails": false,
+			"InsuranceDisabled": false,
+			"IsAlwaysAvailableForInsurance": false,
+			"IsLockedafterEquip": false,
+			"IsSpecialSlotOnly": false,
+			"IsUnbuyable": false,
+			"IsUndiscardable": false,
+			"IsUngivable": false,
+			"IsUnremovable": false,
+			"IsUnsaleable": false,
+			"ItemSound": "med_medkit",
+			"LootExperience": 40,
+			"MaxHpResource": 40,
+			"MergesWithChildren": false,
+			"NotShownInSlot": false,
+			"Prefab": {
+				"path": "assets/content/weapons/usable_items/item_meds_survival_first_aid_rollup_kit/item_meds_survival_first_aid_rollup_kit_loot.bundle",
+				"rcid": ""
+			},
+			"QuestItem": false,
+			"QuestStashMaxCount": 0,
+			"RagFairCommissionModifier": 1,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"StackMaxSize": 1,
+			"StackObjectsCount": 1,
+			"StimulatorBuffs": "",
+			"Unlootable": false,
+			"UnlootableFromSide": [],
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UsePrefab": {
+				"path": "assets/content/weapons/usable_items/item_meds_survival_first_aid_rollup_kit/item_meds_survival_first_aid_rollup_kit_container.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.2,
+			"Width": 2,
+			"effects_damage": {
+				"DestroyedPart": {
+					"delay": 0,
+					"duration": 0,
+					"fadeOut": 0,
+					"healthPenaltyMax": 100,
+					"healthPenaltyMin": 100
+				},
+				"Fracture": {
+					"delay": 0,
+					"duration": 0,
+					"fadeOut": 0,
+					"healthPenaltyMax": 0,
+					"healthPenaltyMin": 0
+				}
+			},
+			"effects_health": [],
+			"hpResourceRate": 0,
+			"medEffectType": "duringUse",
+			"medUseTime": 5
+		}
+	},
+	"price": 50000,
+	"description": {
+		"name": "MG野战手术包",
+		"shortName": "MG野战手术包",
+		"description": "MG野战手术包"
+	},
+	"Buffs": {},
+	"toTraderId":"8ef5b2eff000000000000000",
+	"isSold": true,
+	"loyal_level": 1,
+	"assort": []
+}

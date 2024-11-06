@@ -1,0 +1,250 @@
+{
+  "traderId": {
+    "MarecGents": "8ef5b2eff000000000000000"
+  },
+  "itemId": {
+    "MG-Propital": "8ef5b2ef0000000000000000",
+    "B25U握把-25": "8ef5b2ef0000000000000001",
+    "BUFF针": "8ef5b2ef0000000000000002",
+    "CQR握把-25": "8ef5b2ef0000000000000003",
+    "MG野战手术包": "8ef5b2ef0000000000000004",
+    "SE-5握把-25": "8ef5b2ef0000000000000005",
+    "回血针": "8ef5b2ef0000000000000006",
+    "扩容安全箱": "8ef5b2ef0000000000000007",
+    "高耐久插板": "8ef5b2ef0000000000000008",
+    "Granit 4RS高耐久插板(前部)": "8ef5b2ef0000000000000009",
+    "Granit 4RS高耐久插板(背部)": "8ef5b2ef0000000000000010",
+    "Korund-VM-K高耐久插板(前部)": "8ef5b2ef0000000000000011",
+    "Korund-VM-K高耐久插板(背部)": "8ef5b2ef0000000000000012",
+    "Granit Br5高耐久插板(侧边)": "8ef5b2ef0000000000000013",
+    "Korund-VM高耐久插板(侧边)": "8ef5b2ef0000000000000014",
+    "M60反物质弹药盒": "8ef5b2ef0000000000000015",
+    "PKP反物质弹药盒": "8ef5b2ef0000000000000016"
+  },
+  "GridsId": {
+    "8ef5b2ef0000000000000001": [
+      "8ef5b2ef1000000000000007"
+    ]
+  },
+  "CartridgesId": {
+    "8ef5b2ef0000000000000015": [
+      "8ef5b2ef2000000000000001"
+    ],
+    "8ef5b2ef0000000000000016": [
+      "8ef5b2ef2000000000000002"
+    ]
+  },
+  "assort": {
+    "MarecGents": {
+      "mgtrader_default_assort_bullet01": {
+        "name": "箭形弹",
+        "id": "5d6e6911a4b9361bd5780d52"
+      },
+      "mgtrader_default_assort_bullet02": {
+        "name": "AP-20",
+        "id": "5d6e68a8a4b9360b6c0d54e2"
+      },
+      "mgtrader_default_assort_bullet03": {
+        "name": "Star",
+        "id": "5e85a9f4add9fe03027d9bf1"
+      },
+      "mgtrader_default_assort_bullet04": {
+        "name": "Barr.",
+        "id": "5e85aa1a988a8701445df1f5"
+      },
+      "mgtrader_default_assort_bullet05": {
+        "name": "AP 6.3",
+        "id": "5c925fa22e221601da359b7b"
+      },
+      "mgtrader_default_assort_bullet06": {
+        "name": "7N31",
+        "id": "5efb0da7a29a85116f6ea05f"
+      },
+      "mgtrader_default_assort_bullet07": {
+        "name": ".357 Magnum FMJ",
+        "id": "62330b3ed4dc74626d570b95"
+      },
+      "mgtrader_default_assort_bullet08": {
+        "name": ".45 AP",
+        "id": "5efb0cabfb3e451d70735af5"
+      },
+      "mgtrader_default_assort_bullet09": {
+        "name": "7N42",
+        "id": "6576f4708ca9c4381d16cd9d"
+      },
+      "mgtrader_default_assort_bullet10": {
+        "name": "SS190",
+        "id": "5cc80f38e4a949001152b560"
+      },
+      "mgtrader_default_assort_bullet11": {
+        "name": "FMJ SX",
+        "id": "5ba2678ad4351e44f824b344"
+      },
+      "mgtrader_default_assort_bullet12": {
+        "name": "AP SX",
+        "id": "5ba26835d4351e0035628ff5"
+      },
+      "mgtrader_default_assort_bullet13": {
+        "name": "SPP",
+        "id": "5c0d668f86f7747ccb7f13b2"
+      },
+      "mgtrader_default_assort_bullet14": {
+        "name": "PAB-9",
+        "id": "61962d879bb3d20b0946d385"
+      },
+      "mgtrader_default_assort_bullet15": {
+        "name": "SP-6",
+        "id": "57a0e5022459774d1673f889"
+      },
+      "mgtrader_default_assort_bullet16": {
+        "name": "BP",
+        "id": "5c0d688c86f77413ae3407b2"
+      },
+      "mgtrader_default_assort_bullet17": {
+        "name": "366 AP",
+        "id": "5f0596629e22f464da6bbdd9"
+      },
+      "mgtrader_default_assort_bullet18": {
+        "name": "7N40",
+        "id": "61962b617c6c7b169525f168"
+      },
+      "mgtrader_default_assort_bullet19": {
+        "name": "BP",
+        "id": "56dfef82d2720bbd668b4567"
+      },
+      "mgtrader_default_assort_bullet20": {
+        "name": "BS",
+        "id": "56dff026d2720bb8668b4567"
+      },
+      "mgtrader_default_assort_bullet21": {
+        "name": "7N39",
+        "id": "5c0d5e4486f77478390952fe"
+      },
+      "mgtrader_default_assort_bullet22": {
+        "name": "M856A1",
+        "id": "59e6906286f7746c9f75e847"
+      },
+      "mgtrader_default_assort_bullet23": {
+        "name": "M855A1",
+        "id": "54527ac44bdc2d36668b4567"
+      },
+      "mgtrader_default_assort_bullet24": {
+        "name": "M995",
+        "id": "59e690b686f7746c9f75e848"
+      },
+      "mgtrader_default_assort_bullet25": {
+        "name": "SSA AP",
+        "id": "601949593ae8f707c4608daa"
+      },
+      "mgtrader_default_assort_bullet26": {
+        "name": "CBJ",
+        "id": "64b8725c4b75259c590fa899"
+      },
+      "mgtrader_default_assort_bullet27": {
+        "name": "AP",
+        "id": "5fd20ff893a8961fc660a954"
+      },
+      "mgtrader_default_assort_bullet28": {
+        "name": "PP",
+        "id": "64b7af434b75259c590fa893"
+      },
+      "mgtrader_default_assort_bullet29": {
+        "name": "BP",
+        "id": "59e0d99486f7744a32234762"
+      },
+      "mgtrader_default_assort_bullet30": {
+        "name": "7.62 AP",
+        "id": "601aa3d2b2bcb34913271e6d"
+      },
+      "mgtrader_default_assort_bullet31": {
+        "name": "M80",
+        "id": "58dd3ad986f77403051cba8f"
+      },
+      "mgtrader_default_assort_bullet32": {
+        "name": "M62",
+        "id": "5a608bf24f39f98ffc77720e"
+      },
+      "mgtrader_default_assort_bullet33": {
+        "name": "M61",
+        "id": "5a6086ea4f39f99cd479502f"
+      },
+      "mgtrader_default_assort_bullet34": {
+        "name": "M993",
+        "id": "5efb0c1bd79ff02a1f5e68d9"
+      },
+      "mgtrader_default_assort_bullet35": {
+        "name": "7N1",
+        "id": "59e77a2386f7742ee578960a"
+      },
+      "mgtrader_default_assort_bullet36": {
+        "name": "7BT1",
+        "id": "5e023d34e8a400319a28ed44"
+      },
+      "mgtrader_default_assort_bullet37": {
+        "name": "SNB",
+        "id": "560d61e84bdc2da74d8b4571"
+      },
+      "mgtrader_default_assort_bullet38": {
+        "name": "7N37",
+        "id": "5e023d48186a883be655e551"
+      },
+      "mgtrader_default_assort_bullet39": {
+        "name": "FMJ",
+        "id": "5fc275cf85fd526b824a571a"
+      },
+      "mgtrader_default_assort_bullet40": {
+        "name": "AP",
+        "id": "5fc382a9d724d907e2077dab"
+      },
+      "mgtrader_default_assort_bullet41": {
+        "name": "PS12B",
+        "id": "5cadf6eeae921500134b2799"
+      },
+      "mgtrader_default_assort_bullet42": {
+        "name": "FMJ",
+        "id": "6529302b8c26af6326029fb7"
+      },
+      "mgtrader_default_assort_bullet43": {
+        "name": "Hybrid",
+        "id": "6529243824cbe3c74a05e5c1"
+      },
+      "mgtrader_default_assort_bullet44": {
+        "name": "SOST",
+        "id": "60194943740c5d77f6705eea"
+      },
+      "mgtrader_default_assort_bullet45": {
+        "name": "7.62x39 PS",
+        "id": "5656d7c34bdc2d9d198b4587"
+      },
+      "mgtrader_default_assort_bullet46": {
+        "name": "5.45x39毫米 PP",
+        "id": "56dff2ced2720bb4668b4567"
+      },
+      "mgtrader_default_assort_bullet47": {
+        "name": "7.62x54R LPS Gzh",
+        "id": "5887431f2459777e1612938f"
+      },
+      "mgtrader_default_assort_bullet48": {
+        "name": "9x21毫米 SP13",
+        "id": "5a26ac0ec4a28200741e1e18"
+      },
+      "mgtrader_default_assort_bullet49": {
+        "name": "7.62x51毫米 BPZ FMJ",
+        "id": "5e023e53d4353e3302577c4c"
+      },
+      "mgtrader_default_assort_bullet50": {
+        "name": "9x21毫米 7U4",
+        "id": "6576f93989f0062e741ba952"
+      },
+      "mgtrader_default_assort_bullet51": {
+        "name": ".50 AE实心铜弹",
+        "id": "66a0d1e0ed648d72fe064d06"
+      },
+      "mgtrader_default_assort_bullet52": {
+        "name": ".50 AE FMJ",
+        "id": "668fe62ac62660a5d8071446"
+      }
+
+    }
+  }
+}

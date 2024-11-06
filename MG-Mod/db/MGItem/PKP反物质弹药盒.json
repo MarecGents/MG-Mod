@@ -1,0 +1,49 @@
+{
+
+  "items": {
+    "newId": "8ef5b2ef0000000000000016",
+    "cloneId": "646372518610c40fc20204e8",
+    "_props": {
+      "BackgroundColor": "blue",
+      "Cartridges": [
+        {
+          "_id": "8ef5b2ef2000000000000002",
+          "_max_count": 100,
+          "_name": "cartridges",
+          "_parent": "8ef5b2ef0000000000000016",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e023d34e8a400319a28ed44",
+                  "5e023d48186a883be655e551",
+                  "5e023cf8186a883be655e54f",
+                  "59e77a2386f7742ee578960a",
+                  "5887431f2459777e1612938f",
+                  "560d61e84bdc2da74d8b4571",
+                  "64b8f7c241772715af0f9c3d",
+                  "64b8f7968532cf95ee0a0dbf",
+                  "64b8f7b5389d7ffd620ccba2"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Height": 2,
+      "Width": 1
+    }
+  },
+  "price": 50000,
+  "description": {
+    "name": "PKP 扩容弹药盒",
+    "shortName": "扩容弹药盒",
+    "description": "M.G出品的100发7.62x54四维材质弹药盒，更小的体积，立刻治好你的火力不足恐惧症。"
+  },
+  "Buffs": {},
+  "toTraderId":"8ef5b2eff000000000000000",
+  "isSold": true,
+  "loyal_level": 1,
+  "assort": []
+}

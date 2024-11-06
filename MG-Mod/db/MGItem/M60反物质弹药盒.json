@@ -1,0 +1,49 @@
+{
+  "items": {
+    "newId": "8ef5b2ef0000000000000015",
+    "cloneId": "660ea4453786cc0af808a1be",
+    "_props": {
+      "BackgroundColor": "blue",
+      "Cartridges": [
+        {
+          "_id": "8ef5b2ef2000000000000001",
+          "_max_count": 240,
+          "_name": "cartridges",
+          "_parent": "8ef5b2ef0000000000000015",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Ergonomics": 10,
+      "Recoil": -10,
+      "Height": 2,
+      "Width": 1,
+      "Weight": 0.1
+    }
+  },
+  "price": 20000,
+  "description": {
+    "name": "M60 扩容弹药盒",
+    "shortName": "扩容弹药盒",
+    "description": "M.G出品的240发7.62x51四维材质弹药盒，用更小的体积装更多的子弹，立刻治好你的火力不足恐惧症。"
+  },
+  "Buffs": {},
+  "toTraderId":"8ef5b2eff000000000000000",
+  "isSold": true,
+  "loyal_level": 1,
+  "assort": []
+}

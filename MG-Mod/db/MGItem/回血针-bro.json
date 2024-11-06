@@ -1,0 +1,37 @@
+{
+    "items": {
+        "newId": "8ef5b2ef0000000000000006",
+        "cloneId": "5c0e534186f7747fa1419867",
+        "_props": {
+            "medUseTime": 2,
+            "medEffectType": "duringUse",
+            "MaxHpResource": 10,
+            "StimulatorBuffs": "Buff_ReBlood",
+            "effects_health": {},
+            "effects_damage": {}
+        }
+    },
+    "price": 1000000,
+    "description": {
+        "name": "回血针",
+        "shortName": "回血针",
+        "description": "M.G实验室研制的回复型药剂，使用后体内血液转化为激素，1分钟内回血能力逆天，届时你将无敌。"
+    },
+    "Buffs": {
+        "Buff_ReBlood": [
+            {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 10,
+                "SkillName": "",
+                "Value": 80000
+            }
+        ]
+    },
+    "toTraderId":"8ef5b2eff000000000000000",
+    "isSold": true,
+    "loyal_level": 1,
+    "assort": []
+}

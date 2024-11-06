@@ -1,0 +1,21 @@
+{
+	"_props": {
+		"DepthFade": 0,
+		"RoughnessCoef": 0,
+		"SpecularCoef": 1.1,
+		"MainTexColorCoef": 0.25,
+		"MinimumTemperatureValue": 0.35,
+		"RampShift": 0,
+		"HeatMin": 0.55,
+		"ColdMax": 0.462,
+		"IsNoisy": false,
+		"NoiseIntensity": 0,
+		"IsFpsStuck": false,
+		"IsGlitch": false,
+		"IsMotionBlurred": false,
+		"Mask": "Thermal",
+		"MaskSize": 3,
+		"IsPixelated": false,
+		"PixelationBlockCount": 256
+	}
+}

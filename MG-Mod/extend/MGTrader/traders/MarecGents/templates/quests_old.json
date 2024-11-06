@@ -1,0 +1,836 @@
+{
+  "8ef5b2ef0000000000000001": {
+    "QuestName": "MG Quest1",
+    "traderId": "MarecGents",
+    "_id": "8ef5b2ef0000000000000001",
+    "image": "/files/quest/icon/MGQuest1.jpg",
+    "templateId": "MG Quest1 successMessageText",
+    "description": "MG Quest1 description",
+    "failMessageText": "MG Quest1 failMessageText",
+    "startedMessageText": "MG Quest1 startedMessageText",
+    "successMessageText": "MG Quest1 successMessageText",
+    "acceptPlayerMessage": "MG Quest1 acceptPlayerMessage",
+    "changeQuestMessageText":"MG Quest1 changeQuestMessageText",
+    "completePlayerMessage":"MG Quest1 completePlayerMessage",
+    "declinePlayerMessage": "MG Quest1 declinePlayerMessage",
+    "name": "MG Quest1 name",
+    "note": "MG Quest1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "oneSessionOnly": false,
+          "value": "100",
+          "type": "Elimination",
+          "counter": {
+            "id": "MG Quest1 Killa",
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest1 kill",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ]
+          },
+          "index": 0,
+          "parentId": "",
+          "id": "MG Quest1 A",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "target": [ "6275303a9f372d6ea97f9ec7" ],
+          "value": "3",
+          "index": 1,
+          "isEncoded": false,
+          "parentId": "",
+          "id": "MG Quest1 B",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "onlyFoundInRaid": false,
+          "maxDurability": 0,
+          "dogtagLevel": 0
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": "10",
+          "index": 0,
+          "isEncoded": false,
+          "parentId": "",
+          "id": "MG Quest1 C",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "onlyFoundInRaid": false,
+          "maxDurability": 0,
+          "dogtagLevel": 0
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "Any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "target": "MG Quest1give",
+          "value": "3",
+          "id": "MG Quest1give HongKa",
+          "type": "Item",
+          "index": 0,
+          "items": [
+            {
+              "_id": "MG Quest1give",
+              "_tpl": "5c1d0efb86f7744baf2e7b7b",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ]
+        },
+        {
+          "target": "MG Quest1give2",
+          "value": "1",
+          "id": "MG Quest1give头套",
+          "type": "Item",
+          "index": 1,
+          "items": [
+            {
+              "_id": "MG Quest1give2",
+              "_tpl": "58ac60eb86f77401897560ff",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "target": "MarecGents",
+          "value": "1",
+          "id": "MarecGentsTrader",
+          "type": "TraderStanding",
+          "index": 2
+        },
+        {
+          "id": "MG Quest1技能奖励抗压",
+          "index": 3,
+          "target": "StressResistance",
+          "type": "Skill",
+          "unknown": false,
+          "value": "300"
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "8ef5b2ef0000000000000002": {
+    "QuestName": "MG Quest2",
+    "traderId": "MarecGents",
+    "_id": "8ef5b2ef0000000000000002",
+    "image": "/files/quest/icon/MGQuest2.jpg",
+    "templateId": "MG Quest2 successMessageText",
+    "description": "MG Quest2 description",
+    "failMessageText": "MG Quest2 failMessageText",
+    "startedMessageText": "MG Quest2 startedMessageText",
+    "successMessageText": "MG Quest2 successMessageText",
+    "acceptPlayerMessage": "MG Quest2 acceptPlayerMessage",
+    "changeQuestMessageText":"MG Quest2 changeQuestMessageText",
+    "completePlayerMessage":"MG Quest2 completePlayerMessage",
+    "declinePlayerMessage": "MG Quest2 declinePlayerMessage",
+    "name": "MG Quest2 name",
+    "note": "MG Quest2 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 AvailableForStart",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "MG Quest1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest2 kill1 conditions 1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossBoar"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "62a09e08de7ac81993580532"
+                  ]
+                ],
+                "id": "MG Quest2 kill1 conditions 2"
+              }
+            ],
+            "id": "MG Quest2 kill1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest2 kill2 conditions 1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossKojaniy"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "62a09e08de7ac81993580532"
+                  ]
+                ],
+                "id": "MG Quest2 kill2 conditions 2"
+              }
+            ],
+            "id": "MG Quest2 kill2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 2",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest2 kill3 conditions 1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossZryachiy"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "62a09e08de7ac81993580532"
+                  ]
+                ],
+                "id": "MG Quest2 kill3 conditions 2"
+              }
+            ],
+            "id": "MG Quest2 kill3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 3",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest2 kill4 conditions 1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossKolontay"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "62a09e08de7ac81993580532"
+                  ]
+                ],
+                "id": "MG Quest2 kill4 conditions 2"
+              }
+            ],
+            "id": "MG Quest2 kill4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 4",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "MG Quest2 kill5 conditions 1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossSanitar"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "62a09e08de7ac81993580532"
+                  ]
+                ],
+                "id": "MG Quest2 kill5 conditions 2"
+              }
+            ],
+            "id": "MG Quest2 kill5"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest2 5",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "Any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "target": "MG Quest2give",
+          "value": "1",
+          "id": "MG Quest2giveBTC",
+          "type": "Item",
+          "index": 0,
+          "items": [
+            {
+              "_id": "MG Quest2give",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 10
+              }
+            }
+          ]
+        },
+        {
+          "target": "MG Quest2give2",
+          "value": "1",
+          "id": "MG Quest2give头套",
+          "type": "Item",
+          "index": 1,
+          "items": [
+            {
+              "_id": "MG Quest2give2",
+              "_tpl": "58ac60eb86f77401897560ff",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "target": "MarecGents",
+          "value": "0.2",
+          "id": "MarecGentsTrader2",
+          "type": "TraderStanding",
+          "index": 2
+        },
+        {
+          "target": "579dc571d53a0658a154fbec",
+          "value": "5",
+          "id": "FenceTrader2",
+          "type": "TraderStanding",
+          "index": 3
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "8ef5b2ef0000000000000003": {
+    "QuestName": "MG Quest3",
+    "traderId": "MarecGents",
+    "_id": "8ef5b2ef0000000000000003",
+    "image": "/files/quest/icon/MGQuest3.jpg",
+    "templateId": "MG Quest3 successMessageText",
+    "description": "MG Quest3 description",
+    "failMessageText": "MG Quest3 failMessageText",
+    "startedMessageText": "MG Quest3 startedMessageText",
+    "successMessageText": "MG Quest3 successMessageText",
+    "acceptPlayerMessage": "MG Quest3 acceptPlayerMessage",
+    "changeQuestMessageText":"MG Quest3 changeQuestMessageText",
+    "completePlayerMessage":"MG Quest3 completePlayerMessage",
+    "declinePlayerMessage": "MG Quest3 declinePlayerMessage",
+    "name": "MG Quest3 name",
+    "note": "MG Quest3 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 AvailableForStart",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "MG Quest2",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 FindItem1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c94bbff86f7747ee735c08f"
+          ],
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 HandoverItem1",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c94bbff86f7747ee735c08f"
+          ],
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 FindItem2",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c12613b86f7743bbe2c3f76"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 HandoverItem2",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c12613b86f7743bbe2c3f76"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 FindItem3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "59faff1d86f7746c51718c9c"
+          ],
+          "value": 8,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "MG Quest3 HandoverItem3",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "59faff1d86f7746c51718c9c"
+          ],
+          "value": 8,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "Any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "target": "MG Quest3give1",
+          "value": "1",
+          "id": "MG Quest3give_338AP",
+          "type": "Item",
+          "index": 0,
+          "items": [
+            {
+              "_id": "MG Quest3give1",
+              "_tpl": "5fc382a9d724d907e2077dab",
+              "upd": {
+                "StackObjectsCount": 500
+              }
+            }
+          ]
+        },
+        {
+          "findInRaid": true,
+          "target": "mg_quest3_give_liuguan_id",
+          "value": "10",
+          "id": "MG Quest3give_LiuGuan",
+          "type": "Item",
+          "index": 1,
+          "items": [
+            {
+              "_id": "mg_quest3_give_liuguan_id",
+              "_tpl": "6275303a9f372d6ea97f9ec7",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                }
+              }
+            },
+            {
+              "_id": "mg_quest3_give_liuguan_grip",
+              "_tpl": "571659bb2459771fb2755a12",
+              "parentId": "mg_quest3_give_liuguan_id",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "mg_quest3_give_liuguan_stock",
+              "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+              "parentId": "mg_quest3_give_liuguan_id",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "mg_quest3_give_liuguan_magazine",
+              "_tpl": "627bce33f21bc425b06ab967",
+              "parentId": "mg_quest3_give_liuguan_id",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "mg_quest3_give_liuguan_scope",
+              "_tpl": "6284bd5f95250a29bc628a30",
+              "parentId": "mg_quest3_give_liuguan_id",
+              "slotId": "mod_scope"
+            }
+          ]
+        },
+        {
+          "findInRaid": true,
+          "target": "MG Quest3give3",
+          "value": "1",
+          "id": "MG Quest3give_LiuDan_M441",
+          "type": "Item",
+          "index": 2,
+          "items": [
+            {
+              "_id": "MG Quest3give3",
+              "_tpl": "5ede47405b097655935d7d16",
+              "upd": {
+                "StackObjectsCount": 200
+              }
+            }
+          ]
+        },
+        {
+          "findInRaid": true,
+          "target": "MG Quest3give4",
+          "value": "1",
+          "id": "MG Quest3give_ShuaiPao1",
+          "type": "Item",
+          "index": 3,
+          "items": [
+            {
+              "_id": "MG Quest3give4",
+              "_tpl": "617fd91e5539a84ec44ce155",
+              "upd": {
+                "StackObjectsCount": 25
+              }
+            }
+          ]
+        },
+        {
+          "findInRaid": true,
+          "target": "MG Quest3give5",
+          "value": "1",
+          "id": "MG Quest3give_ShuaiPao2",
+          "type": "Item",
+          "index": 4,
+          "items": [
+            {
+              "_id": "MG Quest3give5",
+              "_tpl": "618a431df1eb8e24b8741deb",
+              "upd": {
+                "StackObjectsCount": 25
+              }
+            }
+          ]
+        }
+
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
+}

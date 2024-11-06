@@ -1,0 +1,387 @@
+{
+	"bots": {
+		"enable": true,
+		"Health": {}
+	},
+	"configs": {
+		"enable": true,
+		"updateTime": 3600,
+		"updateTimeDefault": 3600,
+		"chance": {
+			"enable": false,
+			"base": 100,
+			"overprices": 1000,
+			"underpriced": 1000
+		},
+		"time": {
+			"enable": false,
+			"base": 0.001,
+			"max": 0.002,
+			"min": 0
+		},
+		"dynamic": {
+			"FleaOptimize": {
+				"enable": false,
+				"nonStackableCount": {
+					"min": 100,
+					"max": 5000
+				},
+				"stackablePercent": {
+					"min": 500,
+					"max": 50000
+				},
+				"showAsSingleStack": []
+			},
+			"condition": {
+				"enable": false,
+				"condition": {
+					"5422acb9af1c889c16000029": {
+						"_name": "WEAPON",
+						"conditionChance": 0,
+						"min": 0.6,
+						"max": 1
+					},
+					"543be5664bdc2dd4348b4569": {
+						"_name": "MEDS",
+						"conditionChance": 0,
+						"min": 0.6,
+						"max": 1
+					},
+					"5447e0e74bdc2d3c308b4567": {
+						"_name": "SPEC_ITEM",
+						"conditionChance": 0,
+						"min": 0.02,
+						"max": 1
+					},
+					"543be5e94bdc2df1348b4568": {
+						"_name": "KEY",
+						"conditionChance": 0,
+						"min": 0.97,
+						"max": 1
+					},
+					"5448e5284bdc2dcb718b4567": {
+						"_name": "VEST",
+						"conditionChance": 0,
+						"min": 0.05,
+						"max": 1
+					},
+					"57bef4c42459772e8d35a53b": {
+						"_name": "ARMORED_EQUIPMENT",
+						"conditionChance": 0,
+						"min": 0.05,
+						"max": 1
+					},
+					"543be6674bdc2df1348b4569": {
+						"_name": "FOOD_DRINK",
+						"conditionChance": 0,
+						"min": 0.05,
+						"max": 1
+					}
+				}
+			},
+			"blacklistEnable": true
+		},
+		"returnChance": {
+			"enable": false,
+			"returnChancePercent": {
+				"54cb50c76803fa8b248b4571": 100,
+				"54cb57776803fa99248b456e": 100
+			},
+			"runIntervalSeconds": 0
+		},
+		"botmod": {
+			"chanceSameSideIsHostilePercent": 80,
+			"botadd": 0,
+			"botactive": 0,
+			"pmcPercent": "default"
+		},
+		"newItemsMarkedFound": false,
+		"inraid": {
+			"MIAOnRaidEnd": true,
+			"raidMenuSettings": {
+				"aiAmount": "AsOnline",
+				"aiDifficulty": "AsOnline",
+				"bossEnabled": true,
+				"scavWars": false,
+				"taggedAndCursed": false,
+				"enablePve": true
+			},
+			"save": {
+				"durability": true
+			}
+		},
+		"fence": {
+			"enable": false,
+			"partialRefreshTimeSeconds": 120,
+			"maxPresetsPercent": 20,
+			"presetPriceMult": 1.2,
+			"regenerateAssortsOnRefresh": false,
+			"itemTypeLimits": {
+				"550aa4bf4bdc2dd6348b456b": 3,
+				"55818add4bdc2d5b648b456f": 5,
+				"5448bc234bdc2d3c308b4569": 5,
+				"55818b224bdc2dde698b456f": 5,
+				"555ef6e44bdc2de9068b457e": 5,
+				"5a341c4086f77401f2541505": 5,
+				"55818ad54bdc2ddc698b4569": 5,
+				"5448e53e4bdc2d60728b4567": 5,
+				"55818ac54bdc2d5b648b456e": 5,
+				"55818af64bdc2d5b648b4570": 5,
+				"55818a304bdc2db5418b457d": 4,
+				"5a74651486f7744e73386dd1": 5,
+				"55818a594bdc2db9688b456a": 5,
+				"55818a104bdc2db9688b4569": 5,
+				"55818a684bdc2ddd698b456d": 3,
+				"550aa4cd4bdc2dd8348b456c": 3,
+				"55818acf4bdc2dde698b456b": 5,
+				"55818a6f4bdc2db9688b456b": 5,
+				"5447b5f14bdc2d61278b4567": 3,
+				"5447b5cf4bdc2d65278b4567": 5,
+				"5447b6094bdc2dc3278b4567": 5,
+				"5447b5e04bdc2d62278b4567": 5,
+				"55818b164bdc2ddc698b456c": 3,
+				"617f1ef5e8b54b0998387733": 2,
+				"5448ecbe4bdc2d60728b4568": 2,
+				"57864a66245977548f04a81f": 2,
+				"5a341c4686f77469e155819e": 3,
+				"57864a3d24597754843f8721": 2,
+				"5448e54d4bdc2dcc718b4568": 4,
+				"5448f39d4bdc2d0a728b4568": 5,
+				"5795f317245977243854e041": 3
+			},
+			"presetMaxDurabilityPercentMinMax": {
+				"min": 100,
+				"max": 100
+			},
+			"armorMaxDurabilityPercentMinMax": {
+				"min": 100,
+				"max": 100
+			}
+		},
+		"LootMultiplier": 1,
+		"BuffSettings": {
+			"AmmoBuff": "default",
+			"WeaponBuff": "default"
+		},
+		"airdrop": {
+			"airdropChancePercent": "default",
+			"airdropType": "default",
+			"crateFallSpeed": "default"
+		}
+	},
+	"extra": {
+		"enable": true,
+		"KeyNameExpand": false
+	},
+	"globals": {
+		"enable": true,
+		"BaseLoadTime": 0.85,
+		"BaseUnloadTime": 0.3,
+		"LootMultiplier": 1,
+		"survived_seconds_requirement": 420,
+		"ScavOptimize": {
+			"enable": false,
+			"SavagePlayCooldown": 0,
+			"SavagePlayCooldownNdaFree": 0,
+			"SavagePlayCooldownDevelop": 0
+		},
+		"RagFair": {
+			"minUserLevel": 15,
+			"TaxRate": {
+				"enable": false,
+				"communityTax": 0.01,
+				"communityItemTax": 0.01,
+				"communityRequirementTax": 0.01
+			},
+			"count_Magnification": 1
+		},
+		"RestrictionsInRaid": false,
+		"stamina": {
+			"godmod": false,
+			"BaseRestorationRate": 50,
+			"Capacity": 2800,
+			"HandsCapacity": 2000,
+			"OxygenCapacity": 2000,
+			"OxygenRestoration": 200
+		},
+		"RepairDegradation": false,
+		"BuffSettings": {
+			"AmmoBuff": "default",
+			"WeaponBuff": "default"
+		}
+	},
+	"hideout": {
+		"enable": true,
+		"areas": "default",
+		"production": "default",
+		"scavcase": "default"
+	},
+	"items": {
+		"enable": true,
+		"ExaminedByDefault": false,
+		"AllWeaponInColumn": false,
+		"AmmoSetting": {
+			"StackEnable": false,
+			"StackMaxSize": 500,
+			"Info": true,
+			"BlackList": [
+				"5656eb674bdc2d35148b457c",
+				"5ede474b0c226a66f5402622",
+				"5ede475b549eed7c6d5c18fb",
+				"5ede4739e0350d05467f73e8",
+				"5ede47405b097655935d7d16",
+				"5ede475339ee016e8c534742",
+				"5f0c892565703e5c461894e9",
+				"62389aaba63f32501b1b444f",
+				"62389ba9a63f32501b1b4451",
+				"62389bc9423ed1685422dc57",
+				"62389be94d5d474bf712e709",
+				"635267f063651329f75a4ee8"
+			]
+		},
+		"Container": {
+			"5c093db286f7740a1b2617e3": {
+				"enable": false,
+				"Name": "Mr. Holodilnick保温箱",
+				"cellsH": 15,
+				"cellsV": 15,
+				"Weight": true,
+				"Filter": false
+			},
+			"5aafbcd986f7745e590fff23": {
+				"enable": false,
+				"Name": "医疗物品箱",
+				"cellsH": 15,
+				"cellsV": 15,
+				"Weight": true,
+				"Filter": false
+			},
+			"59fb016586f7746d0d4b423a": {
+				"enable": false,
+				"Name": "钱箱",
+				"cellsH": 20,
+				"cellsV": 16,
+				"Weight": true,
+				"Filter": false
+			},
+			"5aafbde786f774389d0cbc0f": {
+				"enable": false,
+				"Name": "弹药箱",
+				"cellsH": 15,
+				"cellsV": 15,
+				"Weight": true,
+				"Filter": false
+			},
+			"59fafd4b86f7745ca07e1232": {
+				"enable": false,
+				"Name": "钥匙收纳器",
+				"cellsH": 9,
+				"cellsV": 9,
+				"Weight": true,
+				"Filter": false
+			},
+			"5b7c710788a4506dec015957": {
+				"enable": false,
+				"Name": "幸运Scav垃圾箱",
+				"cellsH": 15,
+				"cellsV": 15,
+				"Weight": true,
+				"Filter": false
+			},
+			"5c093e3486f77430cb02e593": {
+				"enable": false,
+				"Name": "狗牌包",
+				"cellsH": 9,
+				"cellsV": 9,
+				"Weight": true,
+				"Filter": false
+			},
+			"590c60fc86f77412b13fddcf": {
+				"enable": false,
+				"Name": "文件包",
+				"cellsH": 9,
+				"cellsV": 9,
+				"Weight": true,
+				"Filter": false
+			},
+			"619cbf7d23893217ec30b689": {
+				"enable": false,
+				"Name": "注射器收纳盒",
+				"cellsH": 9,
+				"cellsV": 9,
+				"Weight": true,
+				"Filter": false
+			},
+			"5d235bb686f77443f4331278": {
+				"enable": false,
+				"Name": "小型SCII包",
+				"cellsH": 9,
+				"cellsV": 9,
+				"Weight": true,
+				"Filter": false
+			},
+			"5c0a840b86f7742ffa4f2482": {
+				"enable": false,
+				"Name": "SCII物品箱",
+				"cellsH": 15,
+				"cellsV": 15,
+				"Weight": true,
+				"Filter": false
+			}
+		},
+		"MoneyStack": {
+			"enable": false,
+			"value": 500000000
+		},
+		"SafeBox": {
+			"contain": {
+				"enable": false,
+				"cellsH": 6,
+				"cellsV": 8
+			},
+			"Filter": false,
+			"Weight": true
+		},
+		"Backpack": {
+			"Buff": false,
+			"Filter": false,
+			"Size": false,
+			"Weight": true
+		},
+		"ArmorRig": {
+			"BlocksArmorVest": false,
+			"Buff": false,
+			"Weight": true
+		},
+		"Helmet": {
+			"BlocksArmorVest": false,
+			"Buff": false,
+			"Weight": true
+		},
+		"MaximumNumberOfUsage": false,
+		"MedicalSupply": "default",
+		"HeatFactor": false,
+		"RepairDegradation": false,
+		"CartridgesTimes": 1,
+		"DurabilityBurnModificator": false,
+		"itemOptimize": true
+	},
+	"locations": {
+		"enable": true,
+		"Boss_100_Chance": false,
+		"WorldEventChance": false,
+		"EscapeChance": false,
+		"EscapeTime": "default"
+	},
+	"request": {
+		"enable": true,
+		"changeCost_cont": 5000
+	},
+	"traders": {
+		"enable": true,
+		"insurance": {
+			"min_return_hour": 36,
+			"max_return_hour": 72
+		}
+	}
+}

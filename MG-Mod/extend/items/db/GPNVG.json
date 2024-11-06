@@ -1,0 +1,17 @@
+{
+	"_props": {
+		"Intensity": 2.0,
+		"Mask": "Anvis",
+		"MaskSize": 3,
+		"NoiseIntensity": 0,
+		"NoiseScale": 0,
+		"Color": {
+			"r": 0,
+			"g": 200,
+			"b": 200,
+			"a": 255
+		},
+		"DiffuseIntensity": 0.1,
+		"HasHinge": true
+	}
+}

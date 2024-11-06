@@ -1,0 +1,5 @@
+git init
+git branch -m master main
+git remote add nickName URL
+git push -u XXX main
+

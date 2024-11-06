@@ -1,0 +1,118 @@
+{
+	"items": {
+		"newId": "8ef5b2ef0000000000000007",
+		"cloneId": "5c093ca986f7740a1867ab12",
+		"_props": {
+			"Name": "item_container_secured_kappa",
+			"ShortName": "item_container_secured_kappa",
+			"Description": "item_container_secured_kappa",
+			"Weight": 2,
+			"BackgroundColor": "red",
+			"Width": 2,
+			"Height": 2,
+			"StackMaxSize": 1,
+			"RarityPvE": "Not_exist",
+			"ItemSound": "container_plastic",
+			"Prefab": {
+				"path": "assets/content/items/barter/item_barter_medical_transilluminator/item_barter_medical_transilluminator.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 0,
+			"ExamineExperience": 100,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": false,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": true,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"InsuranceDisabled": false,
+			"QuestStashMaxCount": 0,
+			"IsSpecialSlotOnly": false,
+			"IsUnremovable": false,
+			"Grids": [
+				{
+					"_name": "main",
+					"_id": "8ef5b2ef1000000000000007",
+					"_parent": "8ef5b2ef0000000000000007",
+					"_props": {
+						"cellsH": 4,
+						"cellsV": 4,
+						"filters": [
+							{
+								"ExcludedFilter": [],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [
+				"SecuredContainer"
+			],
+			"ForbidMissingVitalParts": false,
+			"ForbidNonEmptyContainers": false,
+			"SearchSound": "cashregister_looting",
+			"BlocksArmorVest": false,
+			"containType": [],
+			"sizeWidth": 4,
+			"sizeHeight": 4,
+			"isSecured": true,
+			"spawnTypes": "None",
+			"lootFilter": [],
+			"spawnRarity": "Common",
+			"minCountSpawn": 0,
+			"maxCountSpawn": 0,
+			"openedByKeyID": [],
+			"GridLayoutName": ""
+		}
+	},
+	"price": 10000000,
+	"description": {
+		"name": "Delta安全箱",
+		"shortName": "Delta安全箱",
+		"description": "MG出品，由暗物质提取的神秘材料制成的安全箱，可以放置任何物品，包括...本身。"
+	},
+	"Buffs": {},
+	"toTraderId":"8ef5b2eff000000000000000",
+	"isSold": true,
+	"loyal_level": 1,
+	"assort": []
+}

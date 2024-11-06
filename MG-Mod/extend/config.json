@@ -1,0 +1,529 @@
+{
+    "MGTrader": {
+        "enable": true,
+        "addItems": true,
+        "addAssorts": false
+    },
+    "extra": {
+        "enable": true,
+        "KeyNameExpand": true,
+        "profilesRepair": false,
+        "FleaMarket": true,
+        "newProfile": true
+    },
+    "bots": {
+        "enable": true,
+        "healthRate": "default"
+    },
+    "configs": {
+        "enable": true,
+        "updateTime": 300,
+        "updateTimeDefault": 300,
+        "chance": {
+            "enable": true,
+            "base": 100
+        },
+        "time": {
+            "enable": true,
+            "max": 0.002,
+            "min": 0
+        },
+        "dynamic": {
+            "FleaOptimize": {
+                "enable": true,
+                "nonStackableCount": {
+                    "min": 100,
+                    "max": 5000
+                },
+                "stackablePercent": {
+                    "min": 500,
+                    "max": 50000
+                },
+                "showAsSingleStack": [],
+                "armor": {
+                    "removeRemovablePlateChance": 5
+                }
+            },
+            "condition": false,
+            "blacklistEnable": true
+        },
+        "returnChance": {
+            "enable": true,
+            "returnPay": "default",
+            "runIntervalSeconds": 0
+        },
+        "botmod": {
+            "chanceSameSideIsHostilePercent": 0,
+            "botadd": 0,
+            "botactive": 0,
+            "pmcPercent": "default"
+        },
+        "newItemsMarkedFound": true,
+        "inraid": {
+            "MIAOnRaidEnd": true,
+            "raidMenuSettings": {
+                "aiAmount": "AsOnline",
+                "aiDifficulty": "AsOnline",
+                "bossEnabled": true,
+                "scavWars": false,
+                "taggedAndCursed": false,
+                "enablePve": true
+            },
+            "save": {
+                "durability": true
+            }
+        },
+        "fence": {
+            "enable": false,
+            "partialRefreshTimeSeconds": 120,
+            "maxPresetsPercent": 30,
+            "presetPriceMult": 1.1,
+            "itemPriceMult": 1.1,
+            "regenerateAssortsOnRefresh": false,
+            "itemTypeLimits": {
+                "5b47574386f77428ca22b340": 5,
+                "5b47574386f77428ca22b2f6": 2,
+                "5b47574386f77428ca22b2ee": 2,
+                "5b47574386f77428ca22b2f3": 2,
+                "5b47574386f77428ca22b2f2": 2,
+                "5b47574386f77428ca22b2f0": 2,
+                "5b47574386f77428ca22b2ef": 2,
+                "5b47574386f77428ca22b2ed": 2,
+                "5b47574386f77428ca22b2f1": 2,
+                "5b47574386f77428ca22b2f4": 2,
+                "5b5f737886f774093e6cb4fb": 5,
+                "5b5f73c486f77447ec5d7704": 1,
+                "5b5f73ab86f774094242f195": 1,
+                "5b47574386f77428ca22b331": 2,
+                "5b47574386f77428ca22b32f": 2,
+                "5b5f6f3c86f774094242ef87": 3,
+                "5b5f701386f774093f2ecf0f": 4,
+                "5b5f6f8786f77447ed563642": 4,
+                "5b5f6f6c86f774093f2ecf0b": 5,
+                "5b47574386f77428ca22b330": 3,
+                "5b5f704686f77447ec5d76d7": 3,
+                "5b5f6fa186f77409407a7eb7": 3,
+                "5b5f78fc86f77409407a7f90": 4,
+                "5b5f794b86f77409407a7f92": 1,
+                "5b5f792486f77447ed5636b3": 2,
+                "5b5f796a86f774093f2ed3c0": 2,
+                "5b5f79a486f77409407a7f94": 2,
+                "5b5f78e986f77447ed5636b1": 2,
+                "5b5f798886f77447ed5636b5": 2,
+                "5b5f791486f774093f2ed3be": 3,
+                "5b5f79eb86f77447ed5636b7": 1,
+                "5b5f7a2386f774093f2ed3c4": 3,
+                "5b47574386f77428ca22b339": 2,
+                "5b47574386f77428ca22b338": 3,
+                "5b47574386f77428ca22b33a": 4,
+                "5b47574386f77428ca22b337": 2,
+                "5c518ed586f774119a772aee": 2,
+                "5c518ec986f7743b68682ce2": 6,
+                "5b5f748386f774093e6cb501": 2,
+                "5b5f746686f77447ec5d7708": 1,
+                "5b5f749986f774094242f199": 1,
+                "5b5f744786f774094242f197": 2,
+                "5b5f740a86f77447ec5d7706": 2,
+                "5b5f742686f774093e6cb4ff": 3,
+                "5b5f724c86f774093f2ecf15": 3,
+                "5b5f72f786f77447ec5d7702": 3,
+                "5b5f731a86f774093e6cb4f9": 3,
+                "5b5f74cc86f77447ec5d770a": 2,
+                "5b5f71de86f774093f2ecf13": 4,
+                "5b5f750686f774093e6cb503": 1,
+                "5b5f754a86f774094242f19b": 3,
+                "5b47574386f77428ca22b33b": 8,
+                "5b47574386f77428ca22b33c": 6
+            },
+            "weaponDurabilityPercentMinMax": {
+                "current": {
+                    "min": 100,
+                    "max": 100
+                },
+                "max": {
+                    "min": 100,
+                    "max": 100
+                }
+            },
+            "armorMaxDurabilityPercentMinMax": {
+                "current": {
+                    "min": 100,
+                    "max": 100
+                },
+                "max": {
+                    "min": 100,
+                    "max": 100
+                }
+            }
+        },
+        "LootMultiplier": {
+            "static": 4,
+            "container": 4
+        },
+        "BuffSettings": {
+            "AmmoBuff": 100,
+            "WeaponBuff": 100,
+            "Otherwise": 100
+        },
+        "airdrop": {
+            "airdropChancePercent": 100,
+            "airdropType": "default",
+            "crateFallSpeed": 5
+        },
+        "weather": {
+            "OverAll": "default",
+            "clouds": {
+                "type": "default",
+                "values": [
+                    -1.5,
+                    -1,
+                    0,
+                    0.5,
+                    1,
+                    1.5
+                ],
+                "weights": [
+                    60,
+                    50,
+                    15,
+                    5,
+                    4,
+                    3
+                ]
+            },
+            "windSpeed": {
+                "type": "default",
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "weights": [
+                    20,
+                    15,
+                    10,
+                    5
+                ]
+            },
+            "rain": {
+                "type": "default",
+                "values": [
+                    1,
+                    2,
+                    3
+                ],
+                "weights": [
+                    100,
+                    10,
+                    5
+                ]
+            },
+            "rainIntensity": {
+                "min": 0,
+                "max": 1
+            },
+            "fog": {
+                "type": "default",
+                "values": [
+                    0.002,
+                    0.006,
+                    0.008,
+                    0.012,
+                    0.087
+                ],
+                "weights": [
+                    100,
+                    40,
+                    25,
+                    25,
+                    5
+                ]
+            }
+        }
+    },
+    "globals": {
+        "enable": true,
+        "BaseLoadTime": 0.1,
+        "BaseUnloadTime": 0.1,
+        "LootMultiplier": {
+            "Total": 1,
+            "Valuable": 20
+        },
+        "survived_seconds_requirement": 420,
+        "ScavOptimize": {
+            "enable": true,
+            "SavagePlayCooldown": 0,
+            "SavagePlayCooldownNdaFree": 0,
+            "SavagePlayCooldownDevelop": 0
+        },
+        "RagFair": {
+            "minUserLevel": 1,
+            "TaxRate": {
+                "enable": false,
+                "communityTax": 0.01,
+                "communityItemTax": 0.01,
+                "communityRequirementTax": 0.01
+            },
+            "count_Magnification": 5
+        },
+        "RestrictionsInRaid": true,
+        "stamina": {
+            "godmod": false,
+            "BaseRestorationRate": 50,
+            "Capacity": 2800,
+            "HandsCapacity": 2000,
+            "OxygenCapacity": 2000,
+            "OxygenRestoration": 200
+        },
+        "RepairDegradation": true,
+        "BuffSettings": {
+            "AmmoBuff": 100,
+            "WeaponBuff": 100
+        },
+        "SkillExperience": false
+    },
+    "hideout": {
+        "enable": true,
+        "areas": 30,
+        "production": 30,
+        "scavcase": 10
+    },
+    "items": {
+        "enable": true,
+        "ExaminedByDefault": true,
+        "AllWeaponInColumn": true,
+        "AmmoSetting": {
+            "StackEnable": true,
+            "StackMaxSize": 100,
+            "Info": true,
+            "BlackList": [
+                "5656eb674bdc2d35148b457c",
+                "5ede474b0c226a66f5402622",
+                "5ede475b549eed7c6d5c18fb",
+                "5ede4739e0350d05467f73e8",
+                "5ede47405b097655935d7d16",
+                "5ede475339ee016e8c534742",
+                "5f0c892565703e5c461894e9",
+                "62389aaba63f32501b1b444f",
+                "62389ba9a63f32501b1b4451",
+                "62389bc9423ed1685422dc57",
+                "62389be94d5d474bf712e709",
+                "635267f063651329f75a4ee8"
+            ]
+        },
+        "Container": {
+            "5c093db286f7740a1b2617e3": {
+                "enable": false,
+                "Name": "Mr. Holodilnick保温箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5aafbcd986f7745e590fff23": {
+                "enable": false,
+                "Name": "医疗物品箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "59fb016586f7746d0d4b423a": {
+                "enable": false,
+                "Name": "钱箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5aafbde786f774389d0cbc0f": {
+                "enable": true,
+                "Name": "弹药箱",
+                "cellsH": 10,
+                "cellsV": 10,
+                "Weight": true,
+                "Filter": false
+            },
+            "59fafd4b86f7745ca07e1232": {
+                "enable": false,
+                "Name": "钥匙收纳器",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5b7c710788a4506dec015957": {
+                "enable": false,
+                "Name": "幸运Scav垃圾箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5c093e3486f77430cb02e593": {
+                "enable": false,
+                "Name": "狗牌包",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "590c60fc86f77412b13fddcf": {
+                "enable": false,
+                "Name": "文件包",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "619cbf7d23893217ec30b689": {
+                "enable": false,
+                "Name": "注射器收纳盒",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5d235bb686f77443f4331278": {
+                "enable": false,
+                "Name": "小型SCII包",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5c0a840b86f7742ffa4f2482": {
+                "enable": true,
+                "Name": "THICC物品箱",
+                "cellsH": 14,
+                "cellsV": 15,
+                "Weight": true,
+                "Filter": true
+            },
+            "5c127c4486f7745625356c13": {
+                "enable": true,
+                "Name": "弹匣箱",
+                "cellsH": 10,
+                "cellsV": 10,
+                "Weight": true,
+                "Filter": false
+            },
+            "59fb042886f7746c5005a7b2": {
+                "enable": false,
+                "Name": "物品箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5b6d9ce188a4501afc1b2b25": {
+                "enable": false,
+                "Name": "THICC武器箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "59fb023c86f7746d0d4b423c": {
+                "enable": false,
+                "Name": "武器箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            },
+            "5e2af55f86f7746d4159f07c": {
+                "enable": false,
+                "Name": "手榴弹箱",
+                "cellsH": 20,
+                "cellsV": 16,
+                "Weight": true,
+                "Filter": false
+            }
+        },
+        "MoneyStack": {
+            "enable": true,
+            "value": 5000000
+        },
+        "SafeBox": {
+            "contain": {
+                "enable": false,
+                "cellsH": 6,
+                "cellsV": 8
+            },
+            "Filter": true,
+            "Weight": true
+        },
+        "Backpack": {
+            "Buff": false,
+            "Filter": false,
+            "Size": false,
+            "Weight": true
+        },
+        "ArmorRig": {
+            "BlocksArmorVest": false,
+            "Buff": false,
+            "Weight": true,
+            "DurabilityTimes": 1
+        },
+        "Helmet": {
+            "BlocksArmorVest": false,
+            "Buff": false,
+            "Weight": true,
+            "DurabilityTimes": 1
+        },
+        "MaximumNumberOfUsage": false,
+        "MedicalSupply": "default",
+        "HeatFactor": true,
+        "RepairDegradation": true,
+        "CartridgesTimes": 1,
+        "DurabilityBurnModificator": false,
+        "itemOptimize": true
+    },
+    "locations": {
+        "enable": true,
+        "Boss_100_Chance": true,
+        "otherBossType": {
+            "enable": true,
+            "botType": {
+                "arenaFighterEvent": "default",
+                "pmcBot": 100,
+                "crazyAssaultEvent": "default",
+                "exUsec": 100,
+                "pmcBEAR": 20,
+                "pmcUSEC": 20
+            }
+        },
+        "WorldEventChance": true,
+        "EscapeChance": true,
+        "EscapeTime": "default",
+        "Insurance": {
+            "海关": true,
+            "工厂 白": true,
+            "工厂 夜": true,
+            "立交桥": true,
+            "实验室": true,
+            "灯塔": true,
+            "储备站": true,
+            "海岸线": true,
+            "街区": true,
+            "森林": true,
+            "中心区": true
+        },
+        "newLooseLoot": false
+    },
+    "request": {
+        "enable": true,
+        "changeCost_cont": 0,
+        "questOptimize": false
+    },
+    "traders": {
+        "enable": true,
+        "insurance": {
+            "min_return_hour": 0,
+            "max_return_hour": 0
+        }
+    },
+    "saveTime": "2024-11-03 12:42:47.915143"
+}

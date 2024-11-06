@@ -1,0 +1,85 @@
+{
+  "item": {
+    "_id": "8ef5b2ef0000000000000000",
+    "_name": "MG-Propital",
+    "_parent": "5448f3a64bdc2d60728b456a",
+    "_type": "Item",
+    "_props": {
+      "Name": "MG-Propital",
+      "ShortName": "MG-Propital",
+      "Description": "",
+      "Weight": 0.00,
+      "BackgroundColor": "orange",
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "med_stimulator",
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_propital_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_propital_container.bundle",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 1,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": true,
+      "IsUngivable": false,
+      "IsLockedafterEquip": false,
+      "QuestItem": false,
+      "LootExperience": 10,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "RagFairCommissionModifier": 1,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 2,
+      "DropSoundType": "None",
+      "InsuranceDisabled": false,
+      "QuestStashMaxCount": 0,
+      "IsSpecialSlotOnly": false,
+      "IsUnremovable": false,
+      "medUseTime": 2,
+      "medEffectType": "duringUse",
+      "MaxHpResource": 20,
+      "hpResourceRate": 0,
+      "StimulatorBuffs": "Buffs_MG-Propital",
+      "effects_health": [],
+      "effects_damage": {
+        "Pain": {
+          "delay": 0,
+          "duration": 300,
+          "fadeOut": 0
+        },
+        "Contusion": {
+          "delay": 1,
+          "duration": 300,
+          "fadeOut": 0
+        }
+      }
+    },
+    "_proto": "544fb3f34bdc2d03748b456a"
+  },
+  "origin": "5c0e530286f7747fa1419862",
+  "Type": []
+}

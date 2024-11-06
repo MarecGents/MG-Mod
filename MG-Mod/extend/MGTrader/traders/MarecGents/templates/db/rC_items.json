@@ -1,0 +1,92 @@
+{
+	"_id": "randomContainerId",
+	"_name": "randomContainerName",
+	"_parent": "62f109593b54472778797866",
+	"_props": {
+		"AnimationVariantsNumber": 0,
+		"BackgroundColor": "orange",
+		"BlocksArmorVest": false,
+		"CanPutIntoDuringTheRaid": true,
+		"CanRequireOnRagfair": false,
+		"CanSellOnRagfair": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"ConflictingItems": [],
+		"Description": "boxpreset1",
+		"DiscardLimit": -1,
+		"DiscardingBlock": false,
+		"DropSoundType": "None",
+		"ExamineExperience": 100,
+		"ExamineTime": 1,
+		"ExaminedByDefault": false,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"Grids": [
+			{
+				"_id": "randomGridsId",
+				"_name": "main",
+				"_parent": "randomContainerId",
+				"_props": {
+					"cellsH": 3,
+					"cellsV": 3,
+					"filters": [
+						{
+							"ExcludedFilter": [
+								"54009119af1c881c07000029"
+							],
+							"Filter": []
+						}
+					],
+					"isSortingTable": false,
+					"maxCount": 7,
+					"maxWeight": 3,
+					"minCount": 5
+				},
+				"_proto": "55d329c24bdc2d892f8b4567"
+			}
+		],
+		"Height": 2,
+		"HideEntrails": true,
+		"InsuranceDisabled": true,
+		"IsAlwaysAvailableForInsurance": false,
+		"IsLockedafterEquip": false,
+		"IsSpecialSlotOnly": false,
+		"IsUnbuyable": false,
+		"IsUndiscardable": false,
+		"IsUngivable": false,
+		"IsUnremovable": false,
+		"IsUnsaleable": false,
+		"ItemSound": "container_plastic",
+		"LootExperience": 20,
+		"MergesWithChildren": false,
+		"Name": "Тыква с рандомным лутом",
+		"NotShownInSlot": false,
+		"Prefab": {
+			"path": "assets/content/items/containers/item_container_case_pumpkin/item_container_case_pumpkin1.bundle",
+			"rcid": ""
+		},
+		"QuestItem": false,
+		"QuestStashMaxCount": 0,
+		"RagFairCommissionModifier": 1,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"SearchSound": "drawer_metal_looting",
+		"ShortName": "boxpreset1",
+		"Slots": [],
+		"StackMaxSize": 1,
+		"StackObjectsCount": 1,
+		"Unlootable": false,
+		"UnlootableFromSide": [],
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"Weight": 3,
+		"Width": 2
+	},
+	"_proto": "578f87a3245977356274f2cb",
+	"_type": "Item"
+}

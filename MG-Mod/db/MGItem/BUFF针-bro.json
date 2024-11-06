@@ -1,0 +1,235 @@
+{
+    "items": {
+        "newId": "8ef5b2ef0000000000000002",
+        "cloneId": "5ed515e03a40a50460332579",
+        "_props": {
+            "medUseTime": 2,
+            "medEffectType": "duringUse",
+            "MaxHpResource": 20,
+            "hpResourceRate": 0,
+            "StimulatorBuffs": "Buff_BUFF",
+            "effects_health": {},
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 0,
+                    "Duration": 600,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 0,
+                    "Duration": 600,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 600,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 600,
+                    "fadeOut": 0
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 600,
+                    "fadeOut": 0
+                }
+            }
+        }
+    },
+    "price": 500000,
+    "description": {
+        "name": "状态针",
+        "shortName": "状态针",
+        "description": "M.G实验室研制的持久性药剂，使用后将持续6分钟的满BUFF状态，健步如飞，技艺超群。"
+    },
+    "Buffs": {
+        "Buff_BUFF": [
+            {
+                "AbsoluteValue": true,
+                "BuffType": "RemoveAllBloodLosses",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": false,
+                "BuffType": "DamageModifier",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": -0.05
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "WeightLimit",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1200,
+                "SkillName": "",
+                "Value": 10
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "Antidote",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Endurance",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Strength",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "RecoilControl",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "StressResistance",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Metabolism",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Health",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Vitality",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Attention",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Perception",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Charisma",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Memory",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Intellect",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "MagDrills",
+                "Value": 50
+            },
+            {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Immunity",
+                "Value": 50
+            }
+        ]
+    },
+    "toTraderId":"8ef5b2eff000000000000000",
+    "isSold": true,
+    "loyal_level": 1,
+    "assort": []
+}

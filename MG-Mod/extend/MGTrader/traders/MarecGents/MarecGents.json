@@ -1,0 +1,108 @@
+{
+	"MarecGents": {
+		"enable": true,
+		"_id": "8ef5b2eff000000000000000",
+		"locales": {
+			"FullName": "麻瓜商人",
+			"FirstName": "麻瓜商人",
+			"Nickname": "麻瓜商人",
+			"Location": "MG实验室",
+			"Description": "麻瓜商人经常穿梭于实验室的各个位置，以至于实验室内大家都在猜测麻瓜商人是否就是MG实验室的幕后大佬。事实上也确实如此。"
+		},
+		"insurance": {
+			"enable": true,
+			"minreturnTime": 0,
+			"maxreturnTime": 0,
+			"pay": 0.1,
+			"chance": 100,
+			"storageTime": 100,
+			"Message": {
+				"insuranceStart": [
+					"你小子怎么又这么狼狈，别急，你的东西很快就会拿回来的，我路子野"
+				],
+				"insuranceFound": [
+					"我就说你肯定没那么倒霉吧，这不东西回来了，好好保管别再丢了"
+				],
+				"insuranceFailed": [
+					"小子，我真是太遗憾了，你东西被那群垃圾偷走了，下次注意点吧。"
+				],
+				"insuranceExpired": [
+					"你小子怎么这么久都没来看我，我都以为你再也不回来了，东西我给卖了，自己的东西下次想着点"
+				],
+				"insuranceComplete": [
+					"小子，交易结束，合作愉快！"
+				],
+				"insuranceFailedLabs": [
+					"小子你是不是进局子了，我的手伸不了那么长啊，你说怎么办，"
+				]
+			}
+		},
+		"repair": {
+			"enable": true,
+			"coefficient": 1,
+			"quality": "3"
+		},
+		"loyaltyLevels": {
+			"description": {
+				"main":"用于自定义商人的好感、等级、消费额等关系（此字段无用）",
+				"minLevel": "解锁商人等级最低玩家等级",
+				"minSalesSum": "解锁商人等级所需消费额",
+				"minStanding": "解锁商人等级最低好感",
+				"buy_price_coef": "购买物品的优惠,正数变贵，负数打折",
+				"repair_price_coef": "修理折扣 同购买",
+				"insurance_price_coef": "投保优惠 同购买",
+				"exchange_price_coef": "不知道是干什么的",
+				"heal_price_coef": "治疗优惠 同购买"
+			},
+			"range": [
+				{
+					"minLevel": 1,
+					"minSalesSum": 0,
+					"minStanding": 0,
+					"buy_price_coef": 0,
+					"repair_price_coef": -50,
+					"insurance_price_coef": 30,
+					"exchange_price_coef": 0,
+					"heal_price_coef": 100
+				},
+				{
+					"minLevel": 15,
+					"minSalesSum": 0,
+					"minStanding": 0,
+					"buy_price_coef": 0,
+					"repair_price_coef": -50,
+					"insurance_price_coef": 20,
+					"exchange_price_coef": 0,
+					"heal_price_coef": 50
+				},
+				{
+					"minLevel": 30,
+					"minSalesSum": 0,
+					"minStanding": 0,
+					"buy_price_coef": 0,
+					"repair_price_coef": -50,
+					"insurance_price_coef": 10,
+					"exchange_price_coef": 0,
+					"heal_price_coef": 0
+				},
+				{
+					"minLevel": 45,
+					"minSalesSum": 0,
+					"minStanding": 0,
+					"buy_price_coef": 0,
+					"repair_price_coef": 0,
+					"insurance_price_coef": 5,
+					"exchange_price_coef": 0,
+					"heal_price_coef": -50
+				}
+			]
+		},
+		"discount": 0,
+		"medic": false,
+		"updateTime": {
+			"min": 600,
+			"max": 600
+		},
+		"unlockedDefault": true
+	}
+}
