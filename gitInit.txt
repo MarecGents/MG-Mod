@@ -1,5 +1,5 @@
-git init
-git branch -m master main
-git remote add nickName URL
-git push -u XXX main
+git init  //本地仓库初始化
+git branch -m master main  //将分支名master改为main
+git remote add nickName URL  //关联远程仓库 nickName 自己起 url 为仓库url
+git push -u nickName main   // -u不知道是干什么的
 
