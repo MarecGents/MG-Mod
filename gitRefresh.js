@@ -21,7 +21,7 @@ function getDate(){
 
 exec("git pull MG-Mod main",(error, stdout, stderr) => {
     if (error) {
-        console.error(`执行命令时出错: ${error}`);
+        console.error(`git pull error: ${error}`);
         return;
     }
     console.log(`git pull:\n${stdout}`);
@@ -32,7 +32,7 @@ exec("git pull MG-Mod main",(error, stdout, stderr) => {
 
 exec("git add .",(error, stdout, stderr) => {
     if (error) {
-        console.error(`执行命令时出错: ${error}`);
+        console.error(`git add error: ${error}`);
         return;
     }
     console.log(`git add:\n${stdout}`);
@@ -45,7 +45,7 @@ commit_message = `${nowDate[0]}.${nowDate[1]}.${nowDate[2]} updated`
 
 exec(`git commit -m \"${commit_message}\"`,(error, stdout, stderr) => {
     if (error) {
-        console.error(`执行命令时出错: ${error}`);
+        console.error(`git commit error: ${error}`);
         return;
     }
     console.log(`git commit:\n${stdout}`);
@@ -56,7 +56,7 @@ exec(`git commit -m \"${commit_message}\"`,(error, stdout, stderr) => {
 
 exec("git push MG-Mod main",(error, stdout, stderr) => {
     if (error) {
-        console.error(`执行命令时出错: ${error}`);
+        console.error(`git push error: ${error}`);
         return;
     }
     console.log(`git push:\n${stdout}`);
