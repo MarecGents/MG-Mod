@@ -3,7 +3,7 @@
 **麻瓜编辑器** — 离线版逃离塔科夫（SPT）多功能 Mod
 
 [![SPT Version](https://img.shields.io/badge/SPT-4.0.13%2B-blue)](https://dev.sp-tarkov.com/)
-[![MG-Mod Version](https://img.shields.io/badge/MGMod-latest-green)](https://github.com/MarecGents/MG-Mod/releases/latest)
+[![MG-Mod Version](https://img.shields.io/badge/MGMod-Latest-green)](https://github.com/MarecGents/MG-Mod/releases/latest)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE)
 
 ---
