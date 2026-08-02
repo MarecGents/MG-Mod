@@ -2,7 +2,7 @@
 
 **麻瓜编辑器** — 离线版逃离塔科夫（SPT）多功能 Mod
 
-[![SPT Version](https://img.shields.io/badge/SPT-4.0.13%2B-blue)](https://dev.sp-tarkov.com/)
+[![SPT Version](https://img.shields.io/badge/SPT-4.1.0-blue)](https://dev.sp-tarkov.com/)
 [![MG-Mod Version](https://img.shields.io/badge/MGMod-Latest-green)](https://github.com/MarecGents/MG-Mod/releases/latest)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE)
 
@@ -16,9 +16,9 @@
 
 | 子项目 | 技术栈 | 职能 |
 |--------|--------|------|
-| [MG-Mod-CSharp](https://github.com/MarecGents/MG-Mod-CSharp) | C# (.NET 9.0) | 服务端 Mod 核心逻辑 |
+| [MG-Mod-CSharp](https://github.com/MarecGents/MG-Mod-CSharp) | C# (.NET 10.0) | 服务端 Mod 核心逻辑 |
 | [MG-FleaMarket](https://github.com/MarecGents/MG-FleaMarket) | Python 3 | 实时跳蚤价格同步 |
-| [MGModEditor](https://github.com/MarecGents/MGModEditor) | C# WPF (.NET 9.0) | 可视化配置编辑器 |
+| [MGModEditor](https://github.com/MarecGents/MGModEditor) | C# WPF (.NET 10.0) | 可视化配置编辑器 |
 
 > **注意**：本仓库不包含源代码，仅为整合后 Mod 的二进制发布渠道。源码请访问上方子项目仓库。
 
@@ -67,7 +67,7 @@ MG-Mod 是一款面向 **SPT**（Single Player Tarkov）的图形化配置 Mod�
 4. 使用 **MGEditor** 图形化工具进行配置
 
 ### 系统要求
-- SPT **4.0.11 ~ 4.0.13**
+- SPT **4.1.0**
 - Windows x64
 
 ---
