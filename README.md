@@ -1,6 +1,6 @@
 # MG-Mod
 
-**麻瓜编辑器** — 单机版逃离塔科夫（SPTarkov）多功能 Mod
+**麻瓜编辑器** — 离线版逃离塔科夫（SPT）多功能 Mod
 
 [![SPT Version](https://img.shields.io/badge/SPT-4.0.13%2B-blue)](https://dev.sp-tarkov.com/)
 [![MG-Mod Version](https://img.shields.io/badge/MGMod-v0.8.5.040013-green)]()
@@ -26,7 +26,7 @@
 
 ## 🎮 功能概览
 
-MG-Mod 是一款面向 **SPTarkov**（Single Player Tarkov）的图形化配置 Mod，提供五大功能分类：
+MG-Mod 是一款面向 **SPT**（Single Player Tarkov）的图形化配置 Mod，提供五大功能分类：
 
 ### 🔫 战局系统
 - AI 行为与参数配置
@@ -67,7 +67,7 @@ MG-Mod 是一款面向 **SPTarkov**（Single Player Tarkov）的图形化配置 
 4. 使用 **MGEditor** 图形化工具进行配置
 
 ### 系统要求
-- SPTarkov **4.0.11 ~ 4.0.13**
+- SPT **4.0.11 ~ 4.0.13**
 - Windows x64
 
 ---
