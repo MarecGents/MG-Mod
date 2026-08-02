@@ -26,7 +26,7 @@
 
 ## 🎮 功能概览
 
-MG-Mod 是一款面向 **SPT**（Single Player Tarkov）的图形化配置 Mod，提供五大功能分类：
+MG-Mod 是一款面向 **SPT**（Single Player TKF）的图形化配置 Mod，提供五大功能分类：
 
 ### 🔫 战局系统
 - AI 行为与参数配置
