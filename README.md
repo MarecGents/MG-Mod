@@ -2,7 +2,7 @@
 
 **麻瓜编辑器** — 离线版逃离塔科夫（SPT）多功能 Mod
 
-[![SPT Version](https://img.shields.io/badge/SPT-4.1.0-blue)](https://dev.sp-tarkov.com/)
+[![SPT Version](https://img.shields.io/badge/SPT-4.1.2-blue)](https://dev.sp-tarkov.com/)
 [![MG-Mod Version](https://img.shields.io/badge/MGMod-Latest-green)](https://github.com/MarecGents/MG-Mod/releases/latest)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE)
 
@@ -29,7 +29,8 @@
 MG-Mod 是一款面向 **SPT**（Single Player TKF）的图形化配置 Mod，提供五大功能分类：
 
 ### 🔫 战局系统
-- AI 行为与参数配置
+- AI 行为与参数配置（AI 血量、AI 名字池、PMC 战术小队、PMC 战吼）
+- 地图难度分布 / 地图刷新参数
 - 战局默认选项设置
 - 资源倍率调节
 - 容器随机生成
@@ -67,7 +68,7 @@ MG-Mod 是一款面向 **SPT**（Single Player TKF）的图形化配置 Mod，�
 4. 使用 **MGEditor** 图形化工具进行配置
 
 ### 系统要求
-- SPT **4.1.0**
+- SPT **4.1.2**
 - Windows x64
 
 ---
